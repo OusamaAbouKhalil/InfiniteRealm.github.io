@@ -50,12 +50,9 @@
           <span class="visually-hidden">Toggle navigation</span
           ><span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navcol-1"
-          style="padding-right: 60px; padding-left: 545px"
-        >
+        <div class="collapse navbar-collapse" id="navcol-1">
           <ul class="navbar-nav mx-auto">
+            <li class="nav-item"></li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
             </li>
@@ -64,12 +61,21 @@
               <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="https://infiniterealm.tech">Contacts</a>
+              <a
+                class="nav-link"
+                href="https://infiniteRealm.tech"
+                target="_blank"
+                >Contacts</a
+              >
             </li>
           </ul>
+          <a class="btn btn-primary shadow" role="button" href="#down"
+            >Download Now</a
+          >
         </div>
       </div>
     </nav>
+
     <header class="bg-dark py-5" style="margin-top: -108px">
       <div class="container py-5" style="margin-bottom: -124px">
         <div class="row py-5">
@@ -234,8 +240,14 @@
             <div class="col-md-8 col-xl-6 text-center mx-auto">
               <h2 id="pricing">Simplified Pricing with Swift Credits</h2>
               <p class="w-lg-50">
-                Enjoy hassle-free transactions with Swift Credits. Purchase credits to streamline payments for all our services, from deliveries to rides. With transparent pricing and no hidden fees, Swift Credits make it easy to manage your expenses. Buy credits, use them as you need, and enjoy the convenience of Swift Express without any surprises. Plus, for added flexibility, we also accept cash payments for your convenience.
-            </p>
+                Enjoy hassle-free transactions with Swift Credits. Purchase
+                credits to streamline payments for all our services, from
+                deliveries to rides. With transparent pricing and no hidden
+                fees, Swift Credits make it easy to manage your expenses. Buy
+                credits, use them as you need, and enjoy the convenience of
+                Swift Express without any surprises. Plus, for added
+                flexibility, we also accept cash payments for your convenience.
+              </p>
             </div>
           </div>
           <div
@@ -301,7 +313,10 @@
           </div>
         </div>
       </div>
-      <ul style="align-items: center; justify-content: center; display: flex">
+      <ul
+        style="align-items: center; justify-content: center; display: flex"
+        id="down"
+      >
         <a href="assets/app/app-release.apk">
           <li>
             <div class="download android">
@@ -313,7 +328,7 @@
         </a>
       </ul>
     </section>
-    <footer class="text-center bg-dark" data-aos="fade">
+    <footer class="text-center bg-dark">
       <div class="container text-white py-4 py-lg-5">
         <p class="text-muted mb-0">Copyright © 2024 InfiniteRealm</p>
       </div>
